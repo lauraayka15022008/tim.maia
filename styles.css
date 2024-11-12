@@ -1,0 +1,63 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #f4f4f4;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #4b0082; /* Roxo escuro */
+    color: #ffae42; /* Laranja vibrante */
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+}
+
+/* Navegação */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffae42;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #4b0082; /* Muda para roxo escuro ao passar o mouse */
+}
+
+/* Seções */
+section {
+    padding: 20px;
+    background-color: #282828;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+section h2 {
+    color: #ffae42; /* Títulos em laranja vibrante */
+}
+
+section p {
+    line-height: 1.6;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #ffae42;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9em;
+}
